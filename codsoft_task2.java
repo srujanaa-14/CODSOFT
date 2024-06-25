@@ -18,16 +18,16 @@ public class SGradeCalculator {
         if (avg >= 90) {
             grade = 'O';
         }
-        if (avg >= 80) {
+       else if (avg >= 80) {
             grade = 'A';
         }
-        if (avg >= 70) {
+        else if (avg >= 70) {
             grade = 'B';
         }
-        if (avg >= 60) {
+        else if (avg >= 60) {
             grade = 'C';
         }
-        if (avg >= 50) {
+        else if (avg >= 50) {
             grade = 'D';
         } else {
             grade = 'F';
